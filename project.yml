@@ -1,0 +1,136 @@
+name: xcode_gen_example
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: 11.1
+targets:
+  xcode_gen_example:
+    dependencies:
+      - target: hiratsuka-test
+      - framework: logging_framework/Output/logging_framework.framework
+    type: application
+    platform: iOS
+    sources: xcode_gen_example
+    settings:
+      ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      INFOPLIST_FILE: xcode_gen_example/Supporting Files/info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: ${BUNDLE_ID}
+      SWIFT_VERSION: 4.2
+      DEVELOPMENT_TEAM: indival,inc.
+      IPHONEOS_DEPLOYMENT_TARGET: 11.1
+    scheme:
+      testTargets: xcode_gen_exampleTests
+  xcode_gen_exampleTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: xcode_gen_exampleTests
+    settings:
+      INFOPLIST_FILE: xcode_gen_exampleTests/Supporting Files/info.plist
+      CODE_SIGN_STYLE: Automatic
+      SWIFT_VERSION: 4.0
+      TEST_HOST: ${BUILT_PRODUCTS_DIR}/xcode_gen_example.app
+      DEVELOPMENT_TEAM: HKDHURHY83
+  Presentation:
+    dependencies:
+      - target: Domain
+      - target: Utility
+    type: framework
+    platform: iOS
+    sources: Presentation
+    settings:
+      ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+      CODE_SIGN_STYLE: Automatic
+      INFOPLIST_FILE: Presentation/Supporting Files/info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.nonchalant.Presentation
+      SWIFT_VERSION: 4.0
+      DEVELOPMENT_TEAM: HKDHURHY83
+      IPHONEOS_DEPLOYMENT_TARGET: 11.1
+    scheme:
+      testTargets: PresentationTests
+  PresentationTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: PresentationTests
+    settings:
+      INFOPLIST_FILE: PresentationTests/Supporting Files/info.plist
+      CODE_SIGN_STYLE: Automatic
+      SWIFT_VERSION: 4.0
+      TEST_HOST: ${BUILT_PRODUCTS_DIR}/Presentation.framework
+      DEVELOPMENT_TEAM: HKDHURHY83
+  Domain:
+    dependencies:
+      - target: Infrastructure
+      - target: Utility
+    type: framework
+    platform: iOS
+    sources: Domain
+    settings:
+      ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+      CODE_SIGN_STYLE: Automatic
+      INFOPLIST_FILE: Domain/Supporting Files/info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.nonchalant.Domain
+      SWIFT_VERSION: 4.0
+      DEVELOPMENT_TEAM: HKDHURHY83
+      IPHONEOS_DEPLOYMENT_TARGET: 11.1
+    scheme:
+      testTargets: DomainTests
+  DomainTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: DomainTests
+    settings:
+      INFOPLIST_FILE: DomainTests/Supporting Files/info.plist
+      CODE_SIGN_STYLE: Automatic
+      SWIFT_VERSION: 4.0
+      TEST_HOST: ${BUILT_PRODUCTS_DIR}/Domain.framework
+      DEVELOPMENT_TEAM: HKDHURHY83
+  Infrastructure:
+    dependencies:
+      - target: Utility
+    type: framework
+    platform: iOS
+    sources: Infrastructure
+    settings:
+      ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+      CODE_SIGN_STYLE: Automatic
+      INFOPLIST_FILE: Infrastructure/Supporting Files/info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.nonchalant.Infrastructure
+      SWIFT_VERSION: 4.0
+      DEVELOPMENT_TEAM: HKDHURHY83
+      IPHONEOS_DEPLOYMENT_TARGET: 11.1
+    scheme:
+      testTargets: InfrastructureTests
+  InfrastructureTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: InfrastructureTests
+    settings:
+      INFOPLIST_FILE: InfrastructureTests/Supporting Files/info.plist
+      CODE_SIGN_STYLE: Automatic
+      SWIFT_VERSION: 4.0
+      TEST_HOST: ${BUILT_PRODUCTS_DIR}/Infrastructure.framework
+      DEVELOPMENT_TEAM: HKDHURHY83
+  Utility:
+    type: framework
+    platform: iOS
+    sources: Utility
+    settings:
+      ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
+      CODE_SIGN_STYLE: Automatic
+      INFOPLIST_FILE: Utility/Supporting Files/info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.nonchalant.Utility
+      SWIFT_VERSION: 4.0
+      DEVELOPMENT_TEAM: HKDHURHY83
+      IPHONEOS_DEPLOYMENT_TARGET: 11.1
+    scheme:
+      testTargets: UtilityTests
+  UtilityTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: UtilityTests
+    settings:
+      INFOPLIST_FILE: UtilityTests/Supporting Files/info.plist
+      CODE_SIGN_STYLE: Automatic
+      SWIFT_VERSION: 4.0
+      TEST_HOST: ${BUILT_PRODUCTS_DIR}/Utility.framework
+      DEVELOPMENT_TEAM: HKDHURHY83

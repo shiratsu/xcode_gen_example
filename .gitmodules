@@ -1,0 +1,3 @@
+[submodule "logging_framework"]
+	path = logging_framework
+	url = https://vallabo.backlog.jp/git/SMARTPHONEAPP/logging_framework.git

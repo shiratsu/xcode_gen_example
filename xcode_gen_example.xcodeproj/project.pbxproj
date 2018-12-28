@@ -14,6 +14,13 @@
 		565EFDCE21D6874600CD2BFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 565EFDCC21D6874600CD2BFD /* LaunchScreen.storyboard */; };
 		565EFDD921D6874600CD2BFD /* xcode_gen_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565EFDD821D6874600CD2BFD /* xcode_gen_exampleTests.swift */; };
 		565EFDE421D6874600CD2BFD /* xcode_gen_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565EFDE321D6874600CD2BFD /* xcode_gen_exampleUITests.swift */; };
+		565EFDFB21D6879100CD2BFD /* logging_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565EFDF821D6876A00CD2BFD /* logging_framework.framework */; };
+		565EFDFC21D6879100CD2BFD /* logging_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 565EFDF821D6876A00CD2BFD /* logging_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		565EFE0E21D687AD00CD2BFD /* hiratsuka_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565EFE0521D687AC00CD2BFD /* hiratsuka_test.framework */; };
+		565EFE1521D687AD00CD2BFD /* hiratsuka_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565EFE1421D687AD00CD2BFD /* hiratsuka_testTests.swift */; };
+		565EFE1721D687AD00CD2BFD /* hiratsuka_test.h in Headers */ = {isa = PBXBuildFile; fileRef = 565EFE0721D687AC00CD2BFD /* hiratsuka_test.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		565EFE1A21D687AD00CD2BFD /* hiratsuka_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565EFE0521D687AC00CD2BFD /* hiratsuka_test.framework */; };
+		565EFE1B21D687AD00CD2BFD /* hiratsuka_test.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 565EFE0521D687AC00CD2BFD /* hiratsuka_test.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +38,64 @@
 			remoteGlobalIDString = 565EFDBF21D6874400CD2BFD;
 			remoteInfo = xcode_gen_example;
 		};
+		565EFDF721D6876A00CD2BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565EFDF121D6876A00CD2BFD /* logging_framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 56D5456021A63082004D0FCB;
+			remoteInfo = logging_framework;
+		};
+		565EFDF921D6876A00CD2BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565EFDF121D6876A00CD2BFD /* logging_framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 56D5456921A63082004D0FCB;
+			remoteInfo = logging_frameworkTests;
+		};
+		565EFDFD21D6879100CD2BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565EFDF121D6876A00CD2BFD /* logging_framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D5455F21A63082004D0FCB;
+			remoteInfo = logging_framework;
+		};
+		565EFE0F21D687AD00CD2BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565EFDB821D6874400CD2BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565EFE0421D687AC00CD2BFD;
+			remoteInfo = "hiratsuka-test";
+		};
+		565EFE1121D687AD00CD2BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565EFDB821D6874400CD2BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565EFDBF21D6874400CD2BFD;
+			remoteInfo = xcode_gen_example;
+		};
+		565EFE1821D687AD00CD2BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 565EFDB821D6874400CD2BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 565EFE0421D687AC00CD2BFD;
+			remoteInfo = "hiratsuka-test";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		565EFDFF21D6879100CD2BFD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				565EFDFC21D6879100CD2BFD /* logging_framework.framework in Embed Frameworks */,
+				565EFE1B21D687AD00CD2BFD /* hiratsuka_test.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		565EFDC021D6874400CD2BFD /* xcode_gen_example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcode_gen_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +111,13 @@
 		565EFDDF21D6874600CD2BFD /* xcode_gen_exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcode_gen_exampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		565EFDE321D6874600CD2BFD /* xcode_gen_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcode_gen_exampleUITests.swift; sourceTree = "<group>"; };
 		565EFDE521D6874600CD2BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565EFDF121D6876A00CD2BFD /* logging_framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = logging_framework.xcodeproj; path = logging_framework/logging_framework.xcodeproj; sourceTree = SOURCE_ROOT; };
+		565EFE0521D687AC00CD2BFD /* hiratsuka_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hiratsuka_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		565EFE0721D687AC00CD2BFD /* hiratsuka_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hiratsuka_test.h; sourceTree = "<group>"; };
+		565EFE0821D687AD00CD2BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565EFE0D21D687AD00CD2BFD /* hiratsuka-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hiratsuka-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		565EFE1421D687AD00CD2BFD /* hiratsuka_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiratsuka_testTests.swift; sourceTree = "<group>"; };
+		565EFE1621D687AD00CD2BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +125,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565EFDFB21D6879100CD2BFD /* logging_framework.framework in Frameworks */,
+				565EFE1A21D687AD00CD2BFD /* hiratsuka_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +144,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		565EFE0221D687AC00CD2BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565EFE0A21D687AD00CD2BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565EFE0E21D687AD00CD2BFD /* hiratsuka_test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,6 +168,8 @@
 				565EFDC221D6874400CD2BFD /* xcode_gen_example */,
 				565EFDD721D6874600CD2BFD /* xcode_gen_exampleTests */,
 				565EFDE221D6874600CD2BFD /* xcode_gen_exampleUITests */,
+				565EFE0621D687AC00CD2BFD /* hiratsuka-test */,
+				565EFE1321D687AD00CD2BFD /* hiratsuka-testTests */,
 				565EFDC121D6874400CD2BFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +180,8 @@
 				565EFDC021D6874400CD2BFD /* xcode_gen_example.app */,
 				565EFDD421D6874600CD2BFD /* xcode_gen_exampleTests.xctest */,
 				565EFDDF21D6874600CD2BFD /* xcode_gen_exampleUITests.xctest */,
+				565EFE0521D687AC00CD2BFD /* hiratsuka_test.framework */,
+				565EFE0D21D687AD00CD2BFD /* hiratsuka-testTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +189,7 @@
 		565EFDC221D6874400CD2BFD /* xcode_gen_example */ = {
 			isa = PBXGroup;
 			children = (
+				565EFDF121D6876A00CD2BFD /* logging_framework.xcodeproj */,
 				565EFDC321D6874400CD2BFD /* AppDelegate.swift */,
 				565EFDC521D6874400CD2BFD /* ViewController.swift */,
 				565EFDC721D6874400CD2BFD /* Main.storyboard */,
@@ -125,7 +218,45 @@
 			path = xcode_gen_exampleUITests;
 			sourceTree = "<group>";
 		};
+		565EFDF221D6876A00CD2BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				565EFDF821D6876A00CD2BFD /* logging_framework.framework */,
+				565EFDFA21D6876A00CD2BFD /* logging_frameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		565EFE0621D687AC00CD2BFD /* hiratsuka-test */ = {
+			isa = PBXGroup;
+			children = (
+				565EFE0721D687AC00CD2BFD /* hiratsuka_test.h */,
+				565EFE0821D687AD00CD2BFD /* Info.plist */,
+			);
+			path = "hiratsuka-test";
+			sourceTree = "<group>";
+		};
+		565EFE1321D687AD00CD2BFD /* hiratsuka-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				565EFE1421D687AD00CD2BFD /* hiratsuka_testTests.swift */,
+				565EFE1621D687AD00CD2BFD /* Info.plist */,
+			);
+			path = "hiratsuka-testTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		565EFE0021D687AC00CD2BFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565EFE1721D687AD00CD2BFD /* hiratsuka_test.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		565EFDBF21D6874400CD2BFD /* xcode_gen_example */ = {
@@ -135,10 +266,13 @@
 				565EFDBC21D6874400CD2BFD /* Sources */,
 				565EFDBD21D6874400CD2BFD /* Frameworks */,
 				565EFDBE21D6874400CD2BFD /* Resources */,
+				565EFDFF21D6879100CD2BFD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				565EFDFE21D6879100CD2BFD /* PBXTargetDependency */,
+				565EFE1921D687AD00CD2BFD /* PBXTargetDependency */,
 			);
 			name = xcode_gen_example;
 			productName = xcode_gen_example;
@@ -181,6 +315,43 @@
 			productReference = 565EFDDF21D6874600CD2BFD /* xcode_gen_exampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		565EFE0421D687AC00CD2BFD /* hiratsuka-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565EFE1C21D687AD00CD2BFD /* Build configuration list for PBXNativeTarget "hiratsuka-test" */;
+			buildPhases = (
+				565EFE0021D687AC00CD2BFD /* Headers */,
+				565EFE0121D687AC00CD2BFD /* Sources */,
+				565EFE0221D687AC00CD2BFD /* Frameworks */,
+				565EFE0321D687AC00CD2BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hiratsuka-test";
+			productName = "hiratsuka-test";
+			productReference = 565EFE0521D687AC00CD2BFD /* hiratsuka_test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		565EFE0C21D687AD00CD2BFD /* hiratsuka-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 565EFE1F21D687AD00CD2BFD /* Build configuration list for PBXNativeTarget "hiratsuka-testTests" */;
+			buildPhases = (
+				565EFE0921D687AD00CD2BFD /* Sources */,
+				565EFE0A21D687AD00CD2BFD /* Frameworks */,
+				565EFE0B21D687AD00CD2BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				565EFE1021D687AD00CD2BFD /* PBXTargetDependency */,
+				565EFE1221D687AD00CD2BFD /* PBXTargetDependency */,
+			);
+			name = "hiratsuka-testTests";
+			productName = "hiratsuka-testTests";
+			productReference = 565EFE0D21D687AD00CD2BFD /* hiratsuka-testTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +373,13 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 565EFDBF21D6874400CD2BFD;
 					};
+					565EFE0421D687AC00CD2BFD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					565EFE0C21D687AD00CD2BFD = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 565EFDBF21D6874400CD2BFD;
+					};
 				};
 			};
 			buildConfigurationList = 565EFDBB21D6874400CD2BFD /* Build configuration list for PBXProject "xcode_gen_example" */;
@@ -215,14 +393,39 @@
 			mainGroup = 565EFDB721D6874400CD2BFD;
 			productRefGroup = 565EFDC121D6874400CD2BFD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 565EFDF221D6876A00CD2BFD /* Products */;
+					ProjectRef = 565EFDF121D6876A00CD2BFD /* logging_framework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				565EFDBF21D6874400CD2BFD /* xcode_gen_example */,
 				565EFDD321D6874600CD2BFD /* xcode_gen_exampleTests */,
 				565EFDDE21D6874600CD2BFD /* xcode_gen_exampleUITests */,
+				565EFE0421D687AC00CD2BFD /* hiratsuka-test */,
+				565EFE0C21D687AD00CD2BFD /* hiratsuka-testTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		565EFDF821D6876A00CD2BFD /* logging_framework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = logging_framework.framework;
+			remoteRef = 565EFDF721D6876A00CD2BFD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		565EFDFA21D6876A00CD2BFD /* logging_frameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = logging_frameworkTests.xctest;
+			remoteRef = 565EFDF921D6876A00CD2BFD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		565EFDBE21D6874400CD2BFD /* Resources */ = {
@@ -243,6 +446,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		565EFDDD21D6874600CD2BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565EFE0321D687AC00CD2BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565EFE0B21D687AD00CD2BFD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -277,6 +494,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		565EFE0121D687AC00CD2BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565EFE0921D687AD00CD2BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565EFE1521D687AD00CD2BFD /* hiratsuka_testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +521,26 @@
 			isa = PBXTargetDependency;
 			target = 565EFDBF21D6874400CD2BFD /* xcode_gen_example */;
 			targetProxy = 565EFDE021D6874600CD2BFD /* PBXContainerItemProxy */;
+		};
+		565EFDFE21D6879100CD2BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = logging_framework;
+			targetProxy = 565EFDFD21D6879100CD2BFD /* PBXContainerItemProxy */;
+		};
+		565EFE1021D687AD00CD2BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565EFE0421D687AC00CD2BFD /* hiratsuka-test */;
+			targetProxy = 565EFE0F21D687AD00CD2BFD /* PBXContainerItemProxy */;
+		};
+		565EFE1221D687AD00CD2BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565EFDBF21D6874400CD2BFD /* xcode_gen_example */;
+			targetProxy = 565EFE1121D687AD00CD2BFD /* PBXContainerItemProxy */;
+		};
+		565EFE1921D687AD00CD2BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 565EFE0421D687AC00CD2BFD /* hiratsuka-test */;
+			targetProxy = 565EFE1821D687AD00CD2BFD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -431,7 +683,9 @@
 		565EFDE921D6874600CD2BFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_ID = "xcodegen.example-debug";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S56GZ64EWS;
 				INFOPLIST_FILE = xcode_gen_example/Info.plist;
@@ -439,7 +693,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "indival-inc..xcode-gen-example";
+				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,7 +703,9 @@
 		565EFDEA21D6874600CD2BFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUNDLE_ID = "xcodegen.example-release";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S56GZ64EWS;
 				INFOPLIST_FILE = xcode_gen_example/Info.plist;
@@ -457,7 +713,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "indival-inc..xcode-gen-example";
+				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -546,6 +802,102 @@
 			};
 			name = Release;
 		};
+		565EFE1D21D687AD00CD2BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S56GZ64EWS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "hiratsuka-test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "indival-inc..hiratsuka-test";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		565EFE1E21D687AD00CD2BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = S56GZ64EWS;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "hiratsuka-test/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "indival-inc..hiratsuka-test";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		565EFE2021D687AD00CD2BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S56GZ64EWS;
+				INFOPLIST_FILE = "hiratsuka-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "indival-inc..hiratsuka-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode_gen_example.app/xcode_gen_example";
+			};
+			name = Debug;
+		};
+		565EFE2121D687AD00CD2BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S56GZ64EWS;
+				INFOPLIST_FILE = "hiratsuka-testTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "indival-inc..hiratsuka-testTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcode_gen_example.app/xcode_gen_example";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +933,24 @@
 			buildConfigurations = (
 				565EFDEF21D6874600CD2BFD /* Debug */,
 				565EFDF021D6874600CD2BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565EFE1C21D687AD00CD2BFD /* Build configuration list for PBXNativeTarget "hiratsuka-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565EFE1D21D687AD00CD2BFD /* Debug */,
+				565EFE1E21D687AD00CD2BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		565EFE1F21D687AD00CD2BFD /* Build configuration list for PBXNativeTarget "hiratsuka-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565EFE2021D687AD00CD2BFD /* Debug */,
+				565EFE2121D687AD00CD2BFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
