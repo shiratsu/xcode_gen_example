@@ -658,7 +658,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"\"logging_framework/Output\"",
 				);
-				INFOPLIST_FILE = xcode_gen_example/info.plist;
+				INFOPLIST_FILE = "xcode_gen_example/Supporting Files/info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
@@ -773,7 +773,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"\"logging_framework/Output\"",
 				);
-				INFOPLIST_FILE = xcode_gen_example/info.plist;
+				INFOPLIST_FILE = "xcode_gen_example/Supporting Files/info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
@@ -796,7 +796,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 					"\"logging_framework/Output\"",
 				);
-				INFOPLIST_FILE = xcode_gen_example/info.plist;
+				INFOPLIST_FILE = "xcode_gen_example/Supporting Files/info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
