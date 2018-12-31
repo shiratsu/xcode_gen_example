@@ -21,10 +21,13 @@ targets:
     settings:
       configs:
         Debug:
+          CODE_SIGN_IDENTITY: iPhone Developer
           BUNDLE_ID: hiratsuka-test.debug
         Beta:
+          CODE_SIGN_IDENTITY: iPhone Distribution
           BUNDLE_ID: hiratsuka-test.beta
         AppStore:
+          CODE_SIGN_IDENTITY: iPhone Distribution
           BUNDLE_ID: hiratsuka-test.prod
       base:    
         ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES: ${inherited}
