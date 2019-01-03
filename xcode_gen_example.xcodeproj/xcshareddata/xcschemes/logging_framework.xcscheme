@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "NT_5F6A4ABE1924C9FEC6EA2B3CC809EEDB"
-               BuildableName = "prod-hiratsuka.app"
-               BlueprintName = "xcode_gen_example"
+               BlueprintIdentifier = "NT_32BD500ECEFF23E1B812972A251AF30F"
+               BuildableName = "logging_framework.framework"
+               BlueprintName = "logging_framework"
                ReferencedContainer = "container:xcode_gen_example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,12 +32,14 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_5F6A4ABE1924C9FEC6EA2B3CC809EEDB"
-            BuildableName = "prod-hiratsuka.app"
-            BlueprintName = "xcode_gen_example"
+            BlueprintIdentifier = "NT_32BD500ECEFF23E1B812972A251AF30F"
+            BuildableName = "logging_framework.framework"
+            BlueprintName = "logging_framework"
             ReferencedContainer = "container:xcode_gen_example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +53,17 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_5F6A4ABE1924C9FEC6EA2B3CC809EEDB"
-            BuildableName = "prod-hiratsuka.app"
-            BlueprintName = "xcode_gen_example"
+            BlueprintIdentifier = "NT_32BD500ECEFF23E1B812972A251AF30F"
+            BuildableName = "logging_framework.framework"
+            BlueprintName = "logging_framework"
             ReferencedContainer = "container:xcode_gen_example.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -74,12 +77,14 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "NT_5F6A4ABE1924C9FEC6EA2B3CC809EEDB"
-            BuildableName = "prod-hiratsuka.app"
-            BlueprintName = "xcode_gen_example"
+            BlueprintIdentifier = "NT_32BD500ECEFF23E1B812972A251AF30F"
+            BuildableName = "logging_framework.framework"
+            BlueprintName = "logging_framework"
             ReferencedContainer = "container:xcode_gen_example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "NT_5F6A4ABE1924C9FEC6EA2B3CC809EEDB"
-               BuildableName = "prod-hiratsuka.app"
+               BuildableName = "xcode_gen_example.app"
                BlueprintName = "xcode_gen_example"
                ReferencedContainer = "container:xcode_gen_example.xcodeproj">
             </BuildableReference>
@@ -33,11 +33,13 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "NT_5F6A4ABE1924C9FEC6EA2B3CC809EEDB"
-            BuildableName = "prod-hiratsuka.app"
+            BuildableName = "xcode_gen_example.app"
             BlueprintName = "xcode_gen_example"
             ReferencedContainer = "container:xcode_gen_example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -56,11 +58,13 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "NT_5F6A4ABE1924C9FEC6EA2B3CC809EEDB"
-            BuildableName = "prod-hiratsuka.app"
+            BuildableName = "xcode_gen_example.app"
             BlueprintName = "xcode_gen_example"
             ReferencedContainer = "container:xcode_gen_example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -75,11 +79,13 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "NT_5F6A4ABE1924C9FEC6EA2B3CC809EEDB"
-            BuildableName = "prod-hiratsuka.app"
+            BuildableName = "xcode_gen_example.app"
             BlueprintName = "xcode_gen_example"
             ReferencedContainer = "container:xcode_gen_example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+      </CommandLineArguments>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

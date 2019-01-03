@@ -7,25 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF_092E08E95D700512A6CB28E96B251C8A /* logging_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_FBC8AE039F93AE25CA85428D8D7EEDB3 /* logging_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF_144F277248652E92F3665CCD8757F1EB /* hiratsuka-test.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FR_5030AF4B3E762EBCB9DEC7D2403A28A6 /* hiratsuka-test.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF_1615347E7DC1795AF354115DD79874CD /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_CC7DC8006E682AC5C563021BBDA36470 /* SVProgressHUD.framework */; };
 		BF_18CE15F7D062588E63AF0BFDC9949B9A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_07B0ED50BDE2F2A73A46BD31831CE166 /* RxCocoa.framework */; };
-		BF_1E7C4CFA040929EA64F507BE8CD7FB0B /* LogWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_A53874387EA08232DE2058DB0590CF2B /* LogWrapper.swift */; };
+		BF_25E68264D2CD18890FB13E48EAFB9E18 /* logging_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_786CB3AF0410B5D540E4167315D91E29 /* logging_framework.framework */; };
 		BF_2CCF582BC2D039D7F1813BC901C74DE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = VG_AA1C18744EF5D6419D128EE4D1676049 /* LaunchScreen.storyboard */; };
-		BF_4A9E08D0937706C3DF6F1ED5831E9410 /* logging_frameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_715873097F0489214777054FA3D570B3 /* logging_frameworkTests.swift */; };
 		BF_4D579509E7086505B0B10C9332B07823 /* hiratsuka_test.h in Headers */ = {isa = PBXBuildFile; fileRef = FR_EE719980A2FC7D8EA5F57945F32D6094 /* hiratsuka_test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BF_81EA01B0A372BFDA46BD94EFCAB744CA /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_630C685FFE67C80E427625F7C4D10697 /* RxBlocking.framework */; };
 		BF_9255DAD92E4B202A60EABF22CC92D2A2 /* hiratsuka_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_7324CC8C7DF3B0695A11EFEE7CB7DEFF /* hiratsuka_testTests.swift */; };
 		BF_9518D75375737DE47E843CD8CC16BF97 /* xcode_gen_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_0A8407C97B1629C3B1C78FD0F256BEA9 /* xcode_gen_exampleTests.swift */; };
 		BF_B80FEF9B9E3114ACD3BA661C74837C05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = VG_79F735868F65EDD54CB59417BC9101D3 /* Main.storyboard */; };
 		BF_C114254A8CAA614C15757ADE94E6A129 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_5697F03E8D9A13138610386275A6F0DA /* RxSwift.framework */; };
-		BF_C43B12553BE954AD711B486F368829B2 /* logging_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FR_49030350E5E528C4161831000A7E1A51 /* logging_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF_D17B5BB21019AC9A1B03FFCD57467CE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_75C64A06A2D983C07AEDD59FCBDCA1D3 /* AppDelegate.swift */; };
+		BF_D357DFC08EB6F83CB1CEC31A4FFA6613 /* logging_framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FR_786CB3AF0410B5D540E4167315D91E29 /* logging_framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BF_D900EEB9D6C3AB98D5A8E25654E56372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FR_F758470B15097438977D018FE7422B07 /* Assets.xcassets */; };
 		BF_DBF40470EABCBD5495CE10F3AC2EF22D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FR_2C88EC0EB62C2B6C839766DF3E052FA2 /* ViewController.swift */; };
 		BF_ECAC8BF80A42EA328A4108B8F35615CF /* hiratsuka-test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_5030AF4B3E762EBCB9DEC7D2403A28A6 /* hiratsuka-test.framework */; };
-		BF_EDF724120176D11D11535C2765390F85 /* logging_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_49030350E5E528C4161831000A7E1A51 /* logging_framework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +32,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = NT_57E5C8FAF80E03B7266BA78555DCAF7F;
 			remoteInfo = "hiratsuka-test";
-		};
-		CIP_7A12974EA977484AF8526A34D0BBE0E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = P_FC0512C75FA504A3ED9E7E5499B7847F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = NT_32BD500ECEFF23E1B812972A251AF30F;
-			remoteInfo = logging_framework;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,7 +43,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				BF_144F277248652E92F3665CCD8757F1EB /* hiratsuka-test.framework in Embed Frameworks */,
-				BF_C43B12553BE954AD711B486F368829B2 /* logging_framework.framework in Embed Frameworks */,
+				BF_D357DFC08EB6F83CB1CEC31A4FFA6613 /* logging_framework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,21 +54,16 @@
 		FR_0469032F465EAF841B3261D4734C45A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FR_07B0ED50BDE2F2A73A46BD31831CE166 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
 		FR_0A8407C97B1629C3B1C78FD0F256BEA9 /* xcode_gen_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xcode_gen_exampleTests.swift; sourceTree = "<group>"; };
-		FR_1575795C33D5CD006F79BC89DA1A3D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FR_2C88EC0EB62C2B6C839766DF3E052FA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FR_49030350E5E528C4161831000A7E1A51 /* logging_framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = logging_framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_5030AF4B3E762EBCB9DEC7D2403A28A6 /* hiratsuka-test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "hiratsuka-test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_5697F03E8D9A13138610386275A6F0DA /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
 		FR_630C685FFE67C80E427625F7C4D10697 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
-		FR_715873097F0489214777054FA3D570B3 /* logging_frameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logging_frameworkTests.swift; sourceTree = "<group>"; };
 		FR_7324CC8C7DF3B0695A11EFEE7CB7DEFF /* hiratsuka_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiratsuka_testTests.swift; sourceTree = "<group>"; };
 		FR_75C64A06A2D983C07AEDD59FCBDCA1D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FR_7834224A910976C7EC29F89F8D9A4E19 /* logging_frameworkTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = logging_frameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_786CB3AF0410B5D540E4167315D91E29 /* logging_framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = logging_framework.framework; path = logging_framework/Output/logging_framework.framework; sourceTree = "<group>"; };
 		FR_8D1EC0204222429E1B56B2782CE81637 /* xcode_gen_example.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = xcode_gen_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_92A2EC77572554EC25BC84F5811857F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FR_930415ABEEE696DD93B544E2CAFDFEF7 /* hiratsuka-testTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "hiratsuka-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_A3AFD476128CF5D88638D96CB6CF3AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FR_A53874387EA08232DE2058DB0590CF2B /* LogWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogWrapper.swift; sourceTree = "<group>"; };
 		FR_AC8C26A96D1F7933343A587E1DC4E6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FR_BAD16C697960353DF1B8C60B33B37A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FR_C034233551C2DB1C5ED2B453F5B30F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,7 +72,6 @@
 		FR_EE719980A2FC7D8EA5F57945F32D6094 /* hiratsuka_test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hiratsuka_test.h; sourceTree = "<group>"; };
 		FR_F758470B15097438977D018FE7422B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FR_F8008CF3C5499E0A7CE4E412D31C0228 /* xcode_gen_exampleTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = xcode_gen_exampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_FBC8AE039F93AE25CA85428D8D7EEDB3 /* logging_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logging_framework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +80,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF_ECAC8BF80A42EA328A4108B8F35615CF /* hiratsuka-test.framework in Frameworks */,
-				BF_EDF724120176D11D11535C2765390F85 /* logging_framework.framework in Frameworks */,
 				BF_C114254A8CAA614C15757ADE94E6A129 /* RxSwift.framework in Frameworks */,
 				BF_18CE15F7D062588E63AF0BFDC9949B9A /* RxCocoa.framework in Frameworks */,
 				BF_81EA01B0A372BFDA46BD94EFCAB744CA /* RxBlocking.framework in Frameworks */,
 				BF_1615347E7DC1795AF354115DD79874CD /* SVProgressHUD.framework in Frameworks */,
+				BF_25E68264D2CD18890FB13E48EAFB9E18 /* logging_framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,8 +96,6 @@
 			children = (
 				G_C69F95F019D45D17080CBAAD86694009 /* hiratsuka-test */,
 				G_2435B078DE072C65F75B6876693F9FCC /* hiratsuka-testTests */,
-				G_E45D408A4C629AF17FACD8EF5DE1345B /* logging_framework */,
-				G_EEA9279E84C96DF5212A1E87D572963B /* logging_frameworkTests */,
 				G_E698351C29A221D6DAD95972FE357F22 /* xcode_gen_example */,
 				G_BC10606B580B17D482F82BA73E11C804 /* xcode_gen_exampleTests */,
 				G_402C10A29785778F9EE0029464AC025A /* Frameworks */,
@@ -133,6 +115,7 @@
 		G_402C10A29785778F9EE0029464AC025A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FR_786CB3AF0410B5D540E4167315D91E29 /* logging_framework.framework */,
 				G_F2278F68273F44ACC541CA514E982C99 /* Carthage */,
 			);
 			name = Frameworks;
@@ -143,8 +126,6 @@
 			children = (
 				FR_5030AF4B3E762EBCB9DEC7D2403A28A6 /* hiratsuka-test.framework */,
 				FR_930415ABEEE696DD93B544E2CAFDFEF7 /* hiratsuka-testTests.xctest */,
-				FR_49030350E5E528C4161831000A7E1A51 /* logging_framework.framework */,
-				FR_7834224A910976C7EC29F89F8D9A4E19 /* logging_frameworkTests.xctest */,
 				FR_8D1EC0204222429E1B56B2782CE81637 /* xcode_gen_example.app */,
 				FR_F8008CF3C5499E0A7CE4E412D31C0228 /* xcode_gen_exampleTests.xctest */,
 			);
@@ -180,17 +161,6 @@
 			path = "hiratsuka-test";
 			sourceTree = "<group>";
 		};
-		G_E45D408A4C629AF17FACD8EF5DE1345B /* logging_framework */ = {
-			isa = PBXGroup;
-			children = (
-				FR_1575795C33D5CD006F79BC89DA1A3D40 /* Info.plist */,
-				FR_FBC8AE039F93AE25CA85428D8D7EEDB3 /* logging_framework.h */,
-				FR_A53874387EA08232DE2058DB0590CF2B /* LogWrapper.swift */,
-			);
-			name = logging_framework;
-			path = logging_framework/logging_framework;
-			sourceTree = "<group>";
-		};
 		G_E698351C29A221D6DAD95972FE357F22 /* xcode_gen_example */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,16 +172,6 @@
 				FR_2C88EC0EB62C2B6C839766DF3E052FA2 /* ViewController.swift */,
 			);
 			path = xcode_gen_example;
-			sourceTree = "<group>";
-		};
-		G_EEA9279E84C96DF5212A1E87D572963B /* logging_frameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				FR_92A2EC77572554EC25BC84F5811857F3 /* Info.plist */,
-				FR_715873097F0489214777054FA3D570B3 /* logging_frameworkTests.swift */,
-			);
-			name = logging_frameworkTests;
-			path = logging_framework/logging_frameworkTests;
 			sourceTree = "<group>";
 		};
 		G_F2278F68273F44ACC541CA514E982C99 /* Carthage */ = {
@@ -226,14 +186,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		HBP_556115781111282873F61B24F0CE751F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF_092E08E95D700512A6CB28E96B251C8A /* logging_framework.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		HBP_8392D22AF324BF4F5AC6799C6A7B452D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,37 +210,6 @@
 			name = xcode_gen_exampleTests;
 			productName = xcode_gen_exampleTests;
 			productReference = FR_F8008CF3C5499E0A7CE4E412D31C0228 /* xcode_gen_exampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		NT_32BD500ECEFF23E1B812972A251AF30F /* logging_framework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CL_B08779AC4AB76C6A5E9DAC083EC8222B /* Build configuration list for PBXNativeTarget "logging_framework" */;
-			buildPhases = (
-				HBP_556115781111282873F61B24F0CE751F /* Headers */,
-				SBP_AEC82846BE075C10EFDE280AE203FD37 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = logging_framework;
-			productName = logging_framework;
-			productReference = FR_49030350E5E528C4161831000A7E1A51 /* logging_framework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		NT_4AE970F45FBAF41F972F6614E57318A6 /* logging_frameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CL_1FFC3EF368B9B9912AD91A6C1B3266D5 /* Build configuration list for PBXNativeTarget "logging_frameworkTests" */;
-			buildPhases = (
-				SBP_A60FAF507834267C8CEE5DC31947EC35 /* Sources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = logging_frameworkTests;
-			productName = logging_frameworkTests;
-			productReference = FR_7834224A910976C7EC29F89F8D9A4E19 /* logging_frameworkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		NT_57E5C8FAF80E03B7266BA78555DCAF7F /* hiratsuka-test */ = {
@@ -322,7 +243,6 @@
 			);
 			dependencies = (
 				TD_CD6DF5FF09AD1FADE9216D211B8FE240 /* PBXTargetDependency */,
-				TD_80AB084CBD2E5E1F39E4F78D8458C51A /* PBXTargetDependency */,
 			);
 			name = xcode_gen_example;
 			productName = xcode_gen_example;
@@ -356,21 +276,12 @@
 						DevelopmentTeam = S56GZ64EWS;
 						ProvisioningStyle = Automatic;
 					};
-					NT_32BD500ECEFF23E1B812972A251AF30F = {
-						DevelopmentTeam = S56GZ64EWS;
-						ProvisioningStyle = Automatic;
-					};
-					NT_4AE970F45FBAF41F972F6614E57318A6 = {
-						DevelopmentTeam = S56GZ64EWS;
-						ProvisioningStyle = Automatic;
-					};
 					NT_57E5C8FAF80E03B7266BA78555DCAF7F = {
 						DevelopmentTeam = S56GZ64EWS;
 						ProvisioningStyle = Automatic;
 					};
 					NT_5F6A4ABE1924C9FEC6EA2B3CC809EEDB = {
 						DevelopmentTeam = S56GZ64EWS;
-						ProvisioningStyle = Manual;
 					};
 					NT_82A492C074E0159AFA3C458CBF3F7FB7 = {
 						DevelopmentTeam = S56GZ64EWS;
@@ -391,8 +302,6 @@
 			targets = (
 				NT_57E5C8FAF80E03B7266BA78555DCAF7F /* hiratsuka-test */,
 				NT_82A492C074E0159AFA3C458CBF3F7FB7 /* hiratsuka-testTests */,
-				NT_32BD500ECEFF23E1B812972A251AF30F /* logging_framework */,
-				NT_4AE970F45FBAF41F972F6614E57318A6 /* logging_frameworkTests */,
 				NT_5F6A4ABE1924C9FEC6EA2B3CC809EEDB /* xcode_gen_example */,
 				NT_06C207CC07E74A0B96F4A9DCE6A040DD /* xcode_gen_exampleTests */,
 			);
@@ -447,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${PROJECT_DIR}/test.sh";
+			shellScript = "$(PROJECT_DIR)/test.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -477,22 +386,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		SBP_A60FAF507834267C8CEE5DC31947EC35 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF_4A9E08D0937706C3DF6F1ED5831E9410 /* logging_frameworkTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		SBP_AEC82846BE075C10EFDE280AE203FD37 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BF_1E7C4CFA040929EA64F507BE8CD7FB0B /* LogWrapper.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		SBP_F94AF6684DEC13B39A4D469D64EA895B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -503,11 +396,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		TD_80AB084CBD2E5E1F39E4F78D8458C51A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = NT_32BD500ECEFF23E1B812972A251AF30F /* logging_framework */;
-			targetProxy = CIP_7A12974EA977484AF8526A34D0BBE0E0 /* PBXContainerItemProxy */;
-		};
 		TD_CD6DF5FF09AD1FADE9216D211B8FE240 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = NT_57E5C8FAF80E03B7266BA78555DCAF7F /* hiratsuka-test */;
@@ -535,22 +423,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BC_05066D3758A9C9E8A489FB469526D045 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S56GZ64EWS;
-				INFOPLIST_FILE = logging_framework/logging_frameworkTests/info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "${BUILT_PRODUCTS_DIR}/logging_framework/logging_framework.framework";
-			};
-			name = Beta;
-		};
 		BC_0C0E02B9B5479789ABC67478E3225A8C /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -565,32 +437,6 @@
 				TEST_HOST = "${BUILT_PRODUCTS_DIR}/xcode_gen_example.app";
 			};
 			name = Beta;
-		};
-		BC_0EA7ABFC6481D8D9A44CD54710DF67DE /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = S56GZ64EWS;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = logging_framework/logging_framework/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = AppStore;
 		};
 		BC_10746B2CC274BA84F913427AC261EFC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -652,22 +498,6 @@
 			};
 			name = Debug;
 		};
-		BC_136A370A900F7F94771395486CCA9575 /* AppStore */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S56GZ64EWS;
-				INFOPLIST_FILE = logging_framework/logging_frameworkTests/info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "${BUILT_PRODUCTS_DIR}/logging_framework/logging_framework.framework";
-			};
-			name = AppStore;
-		};
 		BC_251B2D40A931ABA5199234601894D564 /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -718,32 +548,6 @@
 			};
 			name = Debug;
 		};
-		BC_36AFBF3EED2EA50B1F50C5E09330704D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = S56GZ64EWS;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = logging_framework/logging_framework/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Debug;
-		};
 		BC_370044994D3C1AEE6AF8CD14D612DBBE /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -751,7 +555,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S56GZ64EWS;
 				INFOPLIST_FILE = "hiratsuka-testTests/info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
@@ -759,32 +562,6 @@
 				TEST_HOST = "${BUILT_PRODUCTS_DIR}/hiratsuka-test.framework";
 			};
 			name = AppStore;
-		};
-		BC_4A7E9F54047A6EA7479424CF32953A95 /* Beta */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = S56GZ64EWS;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = logging_framework/logging_framework/info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Beta;
 		};
 		BC_65A401DC6ED9E099869695DCAA205696 /* AppStore */ = {
 			isa = XCBuildConfiguration;
@@ -845,7 +622,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S56GZ64EWS;
 				INFOPLIST_FILE = "hiratsuka-testTests/info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
@@ -869,22 +645,6 @@
 			};
 			name = AppStore;
 		};
-		BC_96F7985FF5681B496C3D15C0F3B9DB19 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S56GZ64EWS;
-				INFOPLIST_FILE = logging_framework/logging_frameworkTests/info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				SDKROOT = iphoneos;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "${BUILT_PRODUCTS_DIR}/logging_framework/logging_framework.framework";
-			};
-			name = Debug;
-		};
 		BC_B074D69F6E92FF84534E8E1610BCB108 /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -892,17 +652,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID = "hiratsuka-test.beta";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = S56GZ64EWS;
-				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"\"logging_framework/Output\"",
 				);
 				INFOPLIST_FILE = xcode_gen_example/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "beta-hiratsuka";
 				SDKROOT = iphoneos;
@@ -970,7 +728,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S56GZ64EWS;
 				INFOPLIST_FILE = "hiratsuka-testTests/info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
@@ -1011,17 +768,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID = "hiratsuka-test.prod";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = S56GZ64EWS;
-				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"\"logging_framework/Output\"",
 				);
 				INFOPLIST_FILE = xcode_gen_example/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "prod-hiratsuka";
 				SDKROOT = iphoneos;
@@ -1037,17 +792,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_ID = "hiratsuka-test.debug";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = S56GZ64EWS;
-				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"\"logging_framework/Output\"",
 				);
 				INFOPLIST_FILE = xcode_gen_example/info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_SWIFT_FLAGS = "-D DEBUG -Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "debug-hiratsuka";
 				SDKROOT = iphoneos;
@@ -1074,16 +827,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CL_1FFC3EF368B9B9912AD91A6C1B3266D5 /* Build configuration list for PBXNativeTarget "logging_frameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC_136A370A900F7F94771395486CCA9575 /* AppStore */,
-				BC_05066D3758A9C9E8A489FB469526D045 /* Beta */,
-				BC_96F7985FF5681B496C3D15C0F3B9DB19 /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "";
-		};
 		CL_4FB2BDF92087CA2F56A91717E9E3085F /* Build configuration list for PBXNativeTarget "hiratsuka-test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1100,16 +843,6 @@
 				BC_370044994D3C1AEE6AF8CD14D612DBBE /* AppStore */,
 				BC_D8F266C1E66B755A608A998E7537DDD1 /* Beta */,
 				BC_88D8DC5BEE2FE283548610737BC6931C /* Debug */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "";
-		};
-		CL_B08779AC4AB76C6A5E9DAC083EC8222B /* Build configuration list for PBXNativeTarget "logging_framework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC_0EA7ABFC6481D8D9A44CD54710DF67DE /* AppStore */,
-				BC_4A7E9F54047A6EA7479424CF32953A95 /* Beta */,
-				BC_36AFBF3EED2EA50B1F50C5E09330704D /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = "";
