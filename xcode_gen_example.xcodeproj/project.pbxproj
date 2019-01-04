@@ -74,7 +74,7 @@
 		FR_7324CC8C7DF3B0695A11EFEE7CB7DEFF /* hiratsuka_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiratsuka_testTests.swift; sourceTree = "<group>"; };
 		FR_75C64A06A2D983C07AEDD59FCBDCA1D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FR_7834224A910976C7EC29F89F8D9A4E19 /* logging_frameworkTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = logging_frameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FR_8D1EC0204222429E1B56B2782CE81637 /* xcode_gen_example.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = xcode_gen_example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FR_8D1EC0204222429E1B56B2782CE81637 /* debug-hiratsuka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "debug-hiratsuka.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_92A2EC77572554EC25BC84F5811857F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FR_930415ABEEE696DD93B544E2CAFDFEF7 /* hiratsuka-testTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = "hiratsuka-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FR_A3AFD476128CF5D88638D96CB6CF3AD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 				FR_930415ABEEE696DD93B544E2CAFDFEF7 /* hiratsuka-testTests.xctest */,
 				FR_49030350E5E528C4161831000A7E1A51 /* logging_framework.framework */,
 				FR_7834224A910976C7EC29F89F8D9A4E19 /* logging_frameworkTests.xctest */,
-				FR_8D1EC0204222429E1B56B2782CE81637 /* xcode_gen_example.app */,
+				FR_8D1EC0204222429E1B56B2782CE81637 /* debug-hiratsuka.app */,
 				FR_F8008CF3C5499E0A7CE4E412D31C0228 /* xcode_gen_exampleTests.xctest */,
 			);
 			name = Products;
@@ -326,7 +326,7 @@
 			);
 			name = xcode_gen_example;
 			productName = xcode_gen_example;
-			productReference = FR_8D1EC0204222429E1B56B2782CE81637 /* xcode_gen_example.app */;
+			productReference = FR_8D1EC0204222429E1B56B2782CE81637 /* debug-hiratsuka.app */;
 			productType = "com.apple.product-type.application";
 		};
 		NT_82A492C074E0159AFA3C458CBF3F7FB7 /* hiratsuka-testTests */ = {
@@ -905,6 +905,7 @@
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "beta-hiratsuka";
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc hiratsuka-test.beta";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1024,6 +1025,7 @@
 				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "prod-hiratsuka";
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore hiratsuka-test.prod";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1050,6 +1052,7 @@
 				OTHER_SWIFT_FLAGS = "-D DEBUG -Xfrontend -debug-time-function-bodies";
 				PRODUCT_BUNDLE_IDENTIFIER = "${BUNDLE_ID}";
 				PRODUCT_NAME = "debug-hiratsuka";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development hiratsuka-test.debug";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

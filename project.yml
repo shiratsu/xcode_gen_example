@@ -22,17 +22,23 @@ targets:
     settings:
       configs:
         Debug:
+          DEVELOPMENT_TEAM: P8D4MRXE78
           CODE_SIGN_IDENTITY: iPhone Developer
+          PROVISIONING_PROFILE_SPECIFIER: match Development hiratsuka-test.deug
           BUNDLE_ID: hiratsuka-test.debug
           PRODUCT_NAME: debug-hiratsuka
           OTHER_SWIFT_FLAGS: -D DEBUG -Xfrontend -debug-time-function-bodies
         Beta:
+          DEVELOPMENT_TEAM: S56GZ64EWS
           CODE_SIGN_IDENTITY: iPhone Distribution
+          PROVISIONING_PROFILE_SPECIFIER: match AdHoc hiratsuka-test.beta
           BUNDLE_ID: hiratsuka-test.beta
           PRODUCT_NAME: beta-hiratsuka
           OTHER_SWIFT_FLAGS: -Xfrontend -debug-time-function-bodies
         AppStore:
+          DEVELOPMENT_TEAM: S56GZ64EWS
           CODE_SIGN_IDENTITY: iPhone Distribution
+          PROVISIONING_PROFILE_SPECIFIER: match AppStore hiratsuka-test.prod
           BUNDLE_ID: hiratsuka-test.prod
           PRODUCT_NAME: prod-hiratsuka
           OTHER_SWIFT_FLAGS: -Xfrontend -debug-time-function-bodies
@@ -44,7 +50,6 @@ targets:
         INFOPLIST_FILE: xcode_gen_example/info.plist
         PRODUCT_BUNDLE_IDENTIFIER: ${BUNDLE_ID}
         SWIFT_VERSION: 4.2
-        DEVELOPMENT_TEAM: S56GZ64EWS
         IPHONEOS_DEPLOYMENT_TARGET: 11.1
     postbuildScripts:
       - script: ${PROJECT_DIR}/test.sh
