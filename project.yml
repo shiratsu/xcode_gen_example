@@ -22,7 +22,7 @@ targets:
     settings:
       configs:
         Debug:
-          DEVELOPMENT_TEAM: P8D4MRXE78
+          DEVELOPMENT_TEAM: S56GZ64EWS
           CODE_SIGN_IDENTITY: iPhone Developer
           PROVISIONING_PROFILE_SPECIFIER: match Development hiratsuka-test.deug
           BUNDLE_ID: hiratsuka-test.debug
